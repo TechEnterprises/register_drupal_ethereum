@@ -2,12 +2,12 @@
 
 This repository contains a very simple registry smart contract which is used in the Drupal Ethereum module. 
 
-It allows the PHP Application (Drupal) to verify a visitors Blockchain address. 
+It allows the PHP Application (Drupal) to verify a visitor's Ethereum address. 
 
 **Summing up the flow**
 
 * Drupal creates a 32 bit hash
-* The visitor "submits" this hash to the registry (this contract) using Metamask as a transaction signer `newUser(bytes32 drupalUserHash)`. Drupal will also save the Ethereum address the user **claims to own**.
+* The visitor "submits" this hash to the registry (this contract) using Metamask (Mascara) as a transaction signer `newUser(bytes32 drupalUserHash)`. Drupal will also save the Ethereum address the user **claims to own**.
 * Drupal can now call `validateUserByHash (bytes32 drupalUserHash)`. If the If the hash has been submitted with the users claimed address Drupal has a **proof that the user actually owns** the private key to sign this transaction. 
 
 You might easily turn this into a simple paywall contract. 
