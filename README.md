@@ -1,4 +1,4 @@
-# Register Drupal - Example Ethereum account verification
+# Register Drupal - Ethereum account verification (proof-of-concept)
 
 This repository contains a very simple registry smart contract which is used in the Drupal Ethereum module. 
 
