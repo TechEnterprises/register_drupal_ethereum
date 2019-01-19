@@ -15,9 +15,9 @@ You might easily turn this into a simple paywall contract.
 
 **Development with truffle**
 
-Requires truffle 4.X
+Requires truffle 4.X //TODO Upgrade to 0.5.0
 
-Next to this contract there is a simple app to interact with the contract or modify it. 
+Along with this contract is a simple app for a user to interact with the contract. //TODO get this into the Drupal module
 
 See *quickstart* below or http://truffleframework.com 
 
@@ -99,8 +99,8 @@ Saving artifacts...
 ``` 
 
 Note:
-* If your get an Error `Error: Attempting to run transaction which calls a contract function, but recipient address 0x8cdaf0cd259887258bc13a92c0a6da92698644c0 is not a contract address` you might need to delete `build/contracts/*.json`
-* After restarting the development network you might get a nounce related error. Metamask tracks the TX on your account, if you reset the network you also need to reset the account in Metamask (settings Reset account).
+* If your get an `Error: Attempting to run transaction which calls a contract function, but recipient address 0x8cdaf0cd259887258bc13a92c0a6da92698644c0 is not a contract address` you might need to delete `build/contracts/*.json`
+* After restarting the development network you might get a nonce related error. Metamask tracks the TX on your account, if you reset the network you also need to reset the account in Metamask (settings Reset account).
 
 Now keep the truffle console open (it's your local blockchain) and start the app 
 
