@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="78.303612mm"
+   height="88.720306mm"
+   viewBox="0 0 78.303612 88.720306"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="dreth.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="139.40389"
+     inkscape:cy="-11.679145"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1549"
+     inkscape:window-height="845"
+     inkscape:window-x="51"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-68.949387,-57.022917)">
+    <g
+       id="g179"
+       transform="matrix(0.18661548,0,0,0.18661548,83.490767,67.942001)">
+      <polygon
+         id="polygon167"
+         points="127.9611,287.958 255.9231,212.32 127.9611,0 125.1661,9.5 125.1661,285.168 "
+         style="fill:#343434" />
+      <polygon
+         id="polygon169"
+         points="127.962,287.959 127.962,154.158 127.962,0 0,212.32 "
+         style="fill:#8c8c8c" />
+      <polygon
+         id="polygon171"
+         points="127.9611,416.9066 255.9991,236.5866 127.9611,312.1866 126.3861,314.1066 126.3861,412.3056 "
+         style="fill:#3c3c3b" />
+      <polygon
+         id="polygon173"
+         points="127.962,416.9052 127.962,312.1852 0,236.5852 "
+         style="fill:#8c8c8c" />
+      <polygon
+         id="polygon175"
+         points="127.9611,287.9577 255.9211,212.3207 127.9611,154.1587 "
+         style="fill:#141414" />
+      <polygon
+         id="polygon177"
+         points="0.0009,212.3208 127.9609,287.9578 127.9609,154.1588 "
+         style="fill:#393939" />
+    </g>
+    <g
+       id="g89"
+       transform="matrix(0.26458333,0,0,0.26458333,124.22421,29.056459)">
+	<g
+   id="g75">
+		<path
+   id="path73"
+   d="m -69.7,312.5 c -29.1,0 -52.7,23.6 -52.7,52.7 0,29.1 23.6,52.7 52.7,52.7 29.1,0 52.7,-23.6 52.7,-52.7 0,-29.1 -23.6,-52.7 -52.7,-52.7 z"
+   inkscape:connector-curvature="0"
+   style="fill:#2ba9e0" />
+
+	</g>
+
+	<g
+   id="g79">
+		<path
+   id="path77"
+   d="m -4.1,302.4 c 15.6,16.3 25.2,38.4 25.2,62.8 0,30.9 -15.4,58.1 -38.9,74.5 43.5,-13.4 79.5,-46.1 95.6,-85.7 22.3,-54.8 1.5,-96 -33.3,-133.4 1.1,4.8 1.7,9.9 1.7,15 -0.1,31.8 -21.3,58.5 -50.3,66.8 z"
+   inkscape:connector-curvature="0"
+   style="fill:#2ba9e0" />
+
+	</g>
+
+	<g
+   id="g83">
+		<path
+   id="path81"
+   d="m -63.7,235.7 c 0,22.3 18.1,40.3 40.3,40.3 22.2,0 40.4,-18.1 40.4,-40.3 0,-22.3 -18.1,-40.3 -40.3,-40.3 -22.2,0 -40.4,18 -40.4,40.3 z"
+   inkscape:connector-curvature="0"
+   style="fill:#2ba9e0" />
+
+	</g>
+
+	<g
+   id="g87">
+		<path
+   id="path85"
+   d="m -139.2,423.7 c -13.3,-15.8 -21.3,-36.2 -21.3,-58.5 0,-46.5 34.9,-84.8 80,-90.1 -7.7,-11.2 -12.3,-24.8 -12.3,-39.4 0,-38.4 31.1,-69.4 69.5,-69.4 3.2,0 6.3,0.2 9.3,0.6 -22.7,-19.6 -45.4,-39.5 -63.3,-61.2 9.1,95.2 -86.7,60.6 -122.2,148.4 -23.7,58.8 -2.3,131.5 60.3,169.6 z"
+   inkscape:connector-curvature="0"
+   style="fill:#2ba9e0" />
+
+	</g>
+
+</g>
+  </g>
+</svg>
