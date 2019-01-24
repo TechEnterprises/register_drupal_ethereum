@@ -23,7 +23,7 @@ contract RegisterDrupal {
             // Hash all ready registered to address.
             revert("Hash already registered to address.");
         }
-        else if (_accounts[hash] > 0) {
+        else if (uint(_accounts[hash]) > 0) {
             // Hash all ready registered to different address.
             revert("Hash already registered to different address.");
         }
@@ -76,14 +76,7 @@ contract RegisterDrupal {
 
     function adminRetrieveDonations() public {
         if (msg.sender == _registryAdmin) {
-            _registryAdmin.transfer(address(this).balance);
+            msg.sender.transfer(address(this).balance);
         }
     }
-
-    function adminDeleteRegistry() public {
-        if (msg.sender == _registryAdmin) {
-            selfdestruct(_registryAdmin); // this is a predefined function, it deletes the contract and returns all funds to the admin's address
-        }
-    }
-
 }
