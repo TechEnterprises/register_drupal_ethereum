@@ -21,7 +21,7 @@ contract RegisterDrupal {
 
         if (_accounts[hash] == msg.sender) {
             // Hash all ready registered to address.
-            revert('Hash already registered to address.');
+            revert("Hash already registered to address.");
         }
         else if (_accounts[hash] > 0) {
             // Hash all ready registered to different address.
