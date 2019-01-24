@@ -1,5 +1,5 @@
 {
-  "name": "truffle-init-webpack",
+  "name": "zos-dreth",
   "version": "0.0.2",
   "description": "Frontend example using truffle v3",
   "scripts": {
@@ -33,5 +33,29 @@
     "web3": "^0.20.7",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.11.2"
+  },
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechEnterprises/register_drupal_ethereum.git"
+  },
+  "keywords": [
+    "drupal",
+    "ethereum",
+    "smart",
+    "contract",
+    "zos",
+    "zeppelin",
+    "os"
+  ],
+  "bugs": {
+    "url": "https://github.com/TechEnterprises/register_drupal_ethereum/issues"
+  },
+  "homepage": "https://github.com/TechEnterprises/register_drupal_ethereum#readme",
+  "dependencies": {
+    "zos-lib": "^2.1.0"
   }
 }
