@@ -44,7 +44,7 @@ contract RegisterDrupal {
 
     // Validate Account
     // This function is actually not necessary if you implement Event handling in PHP.
-    function validateUserByHash (bytes32 hash) public constant returns (address result) {
+    function validateUserByHash (bytes32 hash) public view returns (address result) {
         return _accounts[hash];
     }
 
