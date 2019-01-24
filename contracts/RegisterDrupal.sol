@@ -1,6 +1,7 @@
 pragma solidity ^0.5.0;
+import "../node_modules/zos-lib/contracts/Initializable.sol";
 
-contract RegisterDrupal {
+contract RegisterDrupal is Initializable {
 
     // Mapping that matches Drupal generated hash with Ethereum Account address.
     mapping (bytes32 => address) _accounts;
