@@ -3,12 +3,12 @@ require('babel-register')
 
 module.exports = {
   deploy: [
-    "RegisterDrupal"
+    'RegisterDrupal'
   ],
   networks: {
     development: {
-      host: '192.168.99.100',
-      port: 8545,
+      host: '127.0.0.1',
+      port: 9545,
       network_id: '5777' // Match any network id
     },
     local: {
@@ -17,12 +17,12 @@ module.exports = {
       network_id: '*' // Match any network id
     },
     staging: {
-      host: "localhost",
+      host: 'localhost',
       port: 8546,
       network_id: 1337
     },
     ropsten: {
-      host: "localhost",
+      host: 'localhost',
       port: 8545,
       network_id: 3
     }
