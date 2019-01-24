@@ -54,7 +54,7 @@ contract RegisterDrupal is Initializable {
     }
 
     // Administrative below
-    constructor() public {
+    function initialize() public initializer  {
         _registryAdmin = msg.sender;
         _accountAdmin = msg.sender; // can be changed later
         _registrationDisabled = false;
